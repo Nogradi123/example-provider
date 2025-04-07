@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 env:
-  PACT_BROKER_BASE_URL: https://nickspact.pactflow.io
-  PACT_BROKER_TOKEN: nDadO72AxJurKPazRKRrew
+  PACT_BROKER_BASE_URL: https://nicksdemoorg.pactflow.io
+  PACT_BROKER_TOKEN: xFomlbUWPCgVQgNkBBOorA
   PACT_BROKER_PUBLISH_VERIFICATION_RESULTS: true
   GIT_COMMIT: ${{ github.sha }}
   GITHUB_REF: ${{ github.ref }}
